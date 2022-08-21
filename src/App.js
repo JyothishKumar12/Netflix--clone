@@ -1,10 +1,15 @@
 import React from "react";
 import NavBar from "./Components/NavBar/NavBar";
 import './App.css'
+import Banner from "./Components/NavBar/Banner/Banner";
+
 function App() {
   return (
-    
-    <NavBar/>
+    <div className="App">
+       <NavBar/>
+      <Banner/>
+    </div>
+   
   );
 }
 
